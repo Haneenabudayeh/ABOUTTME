@@ -1,0 +1,33 @@
+
+h1 {
+    text-align: center;
+    color: teal;
+}
+
+logo {
+    width: 30px;
+}
+
+h2 {
+    color: teal;
+}
+
+h3 {
+    color: teal;
+}
+
+
+body {
+    background-color: lavenderblush;
+}
+
+.mainNav {
+    background-color: indianred;
+}
+
+#myMarket {
+    border: 5px solid indianred;
+
+}
+
+ 
