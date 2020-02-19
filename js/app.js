@@ -116,22 +116,48 @@ if (trial === 4) {
 
 
 
-var colorarray = ['red', 'blue', 'orange', 'black', 'white', 'pink'];
-var Q7 = prompt('which color do you think love it?')
-for (var i = 0; i < colorarray.length; i++) {
-    //console.log(colorarray[i])
-    if (Q7 == colorarray[0] || Q7 == colorarray[1]) {
-        alert('yes, thats true');
-        mark++
+// var colorarray = ['red', 'blue', 'orange', 'black', 'white', 'pink'];
+// var Q7 = prompt('which color do you think love it?')
+// for (var i = 0; i < colorarray.length; i++) {
+//     //console.log(colorarray[i])
+//     if (Q7 == colorarray[0] || Q7 == colorarray[i]) {
+//         alert('yes, thats true');
+//         mark++
+//         break;
+//     }
+//     else {
+//         alert('wrong,try again');
+//         Q7 = prompt('wrong,try again');
+//     }
+// }
+
+// alert('the correct ans is red, blue, orange, black, white, pink ');
+// alert('your mark' + mark)
+
+    var flowersILove = ['daisy', 'rose', 'jasmine', 'sunflower']
+for (var i = 0; i < 6; i++) {
+    console.log(flowersILove[i]);
+
+    var userAnswer = prompt('one of the flowers i love is?')
+    console.log(userAnswer);
+    if (userAnswer === 'daisy' || userAnswer === 'rose' || userAnswer === 'jasmine' || userAnswer === 'sunflower') {
+        mark= mark + 1;
+        alert('you are right');
         break;
     }
-    else {
-        alert('wrong,try again');
-        Q7 = prompt('wrong,try again');
+    else if (userAnswer !== 'daisy'|| userAnswer !== 'rose' || userAnswer !== 'jasmine' || userAnswer !== 'sunflower') {
+        alert ('try again');
     }
 }
+if (i === 6) {
+    alert ('flowers I Love are: daisy, rose, jasmine and sunflower');
+}
 
-alert('the correct ans is red, blue, orange, black, white, pink ');
-alert('your mark' + mark)
+
+
+alert (`your total score is: ${mark}`);
+
+
+
 
 document.write("<h1>welcome in your store page !</h1><p>Have a nice day!</p>");
