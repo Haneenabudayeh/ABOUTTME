@@ -106,6 +106,14 @@ var i = 0
 for (i = 0; i < 4; i++) {
    Q6 = prompt('wrong,try again');
     console.log(i)
+    if (Q6>5){
+        alert('too high');
+
+    }
+    else if(Q6<3){
+        alert('too low');
+        
+    }
 
 }
 alert('the correct ans is 5');
