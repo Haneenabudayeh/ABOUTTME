@@ -143,32 +143,4 @@ alert('your mark' + mark)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.write("<h1>welcome in your store page !</h1><p>Have a nice day!</p>");
