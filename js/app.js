@@ -88,36 +88,29 @@ switch (Q5.toLocaleLowerCase()) {
     default:
         break;
 }
+
 var Q6 = prompt('how much year you think i am graduated after go to university ?')
+for (var trial = 0; trial < 4; trial++) {
 
-switch (Q6.toLocaleLowerCase()) {
-
-    case 5:
-        alert('yes, thats true');
-        mark++
-        console.log('do you think i have a car');
-
+    var Q6 = prompt("how much year you think i am graduated after go to university ?");
+    console.log(Q6);
+    if (Q6 == 5) {
+        mark = mark + 1;
+        alert('you are right');
         break;
-    case 4:
-    case 3:
-    case 3.5:
-
-}
-var i = 0
-for (i = 0; i < 4; i++) {
-    Q6 = prompt('wrong,try again');
-    console.log(i)
-    if (Q6 > 5) {
-        alert('too high');
-
     }
-    else if (Q6 < 3) {
-        alert('too low');
-
+    else if (Q6 < 5) {
+        alert('your answer is too low');
+    }
+    else if (know6 > 5) {
+        alert('your answer is too high');
     }
 
 }
-alert('the correct ans is 5');
+if (trial === 4) {
+    alert('the correct ans is 5');
+}
+
 
 
 
@@ -140,35 +133,5 @@ for (var i = 0; i < colorarray.length; i++) {
 
 alert('the correct ans is red, blue, orange, black, white, pink ');
 alert('your mark' + mark)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 document.write("<h1>welcome in your store page !</h1><p>Have a nice day!</p>");
