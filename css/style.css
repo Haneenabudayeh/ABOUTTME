@@ -30,4 +30,45 @@ body {
 
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  input {
+    width: 30%;
+  }
+
+  input[type=text] {
+    border: 2px solid indianred;
+    border-radius: 4px;
+  }
+  input[type=password] {
+    border: 2px solid indianred;
+    border-radius: 4px;
+  }
  
+
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  input[type=password]:focus {
+    background-color: lightblue;
+  }
+
+  input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border: 2px solid indianred;
+    border-radius: 4px;
+  }
+ 
+  a {
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+  }
